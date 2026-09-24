@@ -2,7 +2,7 @@ import '../../styles/Contact.css';
 
 const ContactForm = () => {
   return (
-    <form>
+    <form action="https://formspree.io/f/xvkgqbbb" method="Post">
       <div className="form-group">
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" placeholder='Enter your Name'/>
