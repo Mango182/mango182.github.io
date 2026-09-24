@@ -2,7 +2,6 @@
   padding: 2rem;
   background-color: var(--background);
   color: var(--text);
-  height: 100vh;
   box-sizing: border-box;
 }
 
