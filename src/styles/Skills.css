@@ -1,0 +1,50 @@
+#skills {
+    height: 100vh;
+    min-width: 0;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.skill-category {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    min-width: 0;
+    text-align: center;
+}
+
+.skill-category h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-category li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-icon {
+    flex-shrink: 0;
+    color: var(--text-h);
+}
