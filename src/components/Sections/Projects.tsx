@@ -1,4 +1,4 @@
-import projects from '../../projects'
+import projects from '../../data/projects'
 import ProjectCard from '../ProjectCard'
 
 import '../../styles/Projects.css';
