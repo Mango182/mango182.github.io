@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     <div className="project-card">
       <h2>{project.title}</h2>
       <p>{project.description}</p>
-      <div>
+      <div className="project-tags">
         {project.tags.map((tag) => (
           <span key={tag}>{tag}</span>
         ))}

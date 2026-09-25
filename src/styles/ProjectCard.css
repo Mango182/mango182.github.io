@@ -9,6 +9,13 @@
   transition: box-shadow 0.3s;
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-style: italic;
+}
+
 .project-card p {
   color: var(--text);
   flex-grow: 1;
