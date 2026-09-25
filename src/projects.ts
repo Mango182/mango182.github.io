@@ -9,8 +9,8 @@ export interface Project {
 const projects: Project[] = [
   {
     title: 'DefineIt',
-    description: 'A collaborative mobile dictionary application featuring\
-     RESTful API integration for instant definitions, dynamic word search,\
+    description: 'A collaborative mobile dictionary application utilizing\
+     RESTful API integration for definitions, dynamic word search,\
      and local persistence for offline vocabulary review.',
     tags: ['Java', 'Android Studio'],
     link: 'https://github.com/christM103/UML_COMP4630-Final_Project',
@@ -27,9 +27,7 @@ const projects: Project[] = [
   },
   {
     title: 'CareerLog',
-    description: 'A cross-platform mobile tracker designed to organize job\
-     applications, manage interview timelines, and monitor candidate outreach\
-     with persistent offline support.',
+    description: 'A cross-platform mobile tracker designed to organize job applications.',
     tags: ['React Native', 'TypeScript', 'Expo', ],
     link: 'https://github.com/Mango182/CareerLog',
     image: null,
@@ -45,8 +43,7 @@ const projects: Project[] = [
   {
     title: 'dfa-gen',
     description: 'A tool for generating deterministic finite automata (DFA)\
-     from regular expressions, facilitating the study and application of formal\
-     languages and automata theory.',
+     from regular expressions.',
     tags: ['Python'],
     link: 'https://github.com/Mango182/dfa-gen',
     image: null
