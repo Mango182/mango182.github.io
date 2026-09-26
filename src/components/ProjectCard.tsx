@@ -1,5 +1,5 @@
-import type { Project } from '../data/projects';
-import '../styles/ProjectCard.css';
+import type { Project } from '@/data/projects';
+import '@/styles/ProjectCard.css';
 
 interface ProjectCardProps {
   project: Project;

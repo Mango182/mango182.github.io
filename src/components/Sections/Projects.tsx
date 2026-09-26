@@ -1,7 +1,7 @@
-import projects from '../../data/projects'
-import ProjectCard from '../ProjectCard'
+import projects from '@/data/projects'
+import ProjectCard from '@/components/ProjectCard'
 
-import '../../styles/Projects.css';
+import '@/styles/Projects.css';
 
 function Projects() {
   return (

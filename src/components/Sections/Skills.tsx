@@ -1,6 +1,6 @@
-import type { Skill } from '../../data/skills';
-import { frontEndSkills, backEndSkills, languages, tools, MobileSkills } from '../../data/skills';
-import '../../styles/Skills.css';
+import type { Skill } from '@/data/skills';
+import { frontEndSkills, backEndSkills, languages, tools, MobileSkills } from '@/data/skills';
+import '@/styles/Skills.css';
 
 
 
