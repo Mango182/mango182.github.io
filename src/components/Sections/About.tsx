@@ -7,19 +7,21 @@ export default function About() {
 
       <p>Hi, I am</p>
       <h1>Miguel Echeverry</h1>
-      <p className="tagline">Recent Math & CS Graduate</p>
-      <p>
-        I'm a recent Mathematics and Computer Science graduate who enjoys building thoughtful, reliable software and solving challenging problems.
-      </p>
+      <p className="tagline">Software Developer | Math & CS</p>
+      <div className="description">
+        <p>
+          I graduated with a degree in Mathematics and Computer Science From UMass Lowell.
+          My work focuses on building practical and efficient software across the stack.
+          From native and Flutter mobile applications with offline persistence to C++ engines, graphics pipelines, and numerical solvers.
+        </p>
+        <p>
+          I prefer completely understanding how things work from the ground up, and I am currently looking for entry-level software engineering roles where I can contribute to meaningful projects and continue to grow as a developer.
+        </p>
+      </div>
       <ul className="links">
         <li>
           <a href="https://github.com/Mango182" target="_blank" rel="noreferrer" aria-label='GitHub'>
             <FaGithub />
-          </a>
-        </li>
-        <li>
-          <a href="mailto:MiguelEEcheverry@gmail.com" aria-label='Email'>
-            <FaEnvelope />
           </a>
         </li>
         <li>
