@@ -30,6 +30,12 @@ nav .title {
   justify-content: center;
 }
 
+nav .title .logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 nav ul {
   display: flex;
 }

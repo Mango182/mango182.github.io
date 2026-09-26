@@ -1,9 +1,12 @@
 import '@/styles/Navbar.css';
+import logo from '@/assets/project_images/Fancy_Cat.png';
 
 export default function Navbar() {
   return (
     <nav>
-      <a href="#top" className='title'>ME</a>
+      <a href="#top" className='title'>
+        <img className="logo" src={logo} alt="Logo" />
+      </a>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
