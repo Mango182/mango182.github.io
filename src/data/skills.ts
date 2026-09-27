@@ -10,8 +10,6 @@ import {
   SiCplusplus,
   SiDart,
   SiGit,
-  SiDocker,
-  SiKubernetes,
   SiFirebase,
   SiLinux,
   SiCmake,
@@ -52,8 +50,6 @@ export const languages: Skill[] = [
 
 export const tools: Skill[] = [
   { name: 'Git', icon: SiGit, color: 'rgb(240, 80, 50)' },
-  { name: 'Docker', icon: SiDocker, color: 'rgb(36, 150, 237)' },
-  { name: 'Kubernetes', icon: SiKubernetes, color: 'rgb(50, 108, 229)' },
   { name: 'Firebase', icon: SiFirebase, color: 'rgb(255, 202, 40)' },
   { name: 'Linux', icon: SiLinux, color: 'rgb(252, 198, 36)' },
   { name: 'VS Code', icon: VscVscode, color: 'rgb(0, 122, 204)' },

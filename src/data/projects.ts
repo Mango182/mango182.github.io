@@ -21,14 +21,14 @@ const projects: Project[] = [
     description: 'A computational simulation modeling rigid body rotational\
      dynamics and chaotic motion, implementing high-order differential equation\
      solvers to visualize tumbling stability.',
-    tags: ['Python', 'NumPy', 'C++', 'OpenGL', ],
+    tags: ['Python', 'NumPy', 'C++', 'OpenGL'],
     link: 'https://github.com/Mango182/tumbling-box-numerical-methods',
     image: null,
   },
   {
     title: 'CareerLog',
     description: 'A cross-platform mobile tracker designed to organize job applications.',
-    tags: ['React Native', 'TypeScript', 'Expo', ],
+    tags: ['React Native', 'TypeScript', 'Expo'],
     link: 'https://github.com/Mango182/CareerLog',
     image: null,
   },
@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: 'dfa-gen',
     description: 'A tool for generating deterministic finite automata (DFA)\
      from regular expressions.',
-    tags: ['Python'],
+    tags: ['Python', 'graphviz'],
     link: 'https://github.com/Mango182/dfa-gen',
     image: null
   }
