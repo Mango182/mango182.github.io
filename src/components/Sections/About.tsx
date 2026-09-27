@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import '@/styles/About.css';
 
 export default function About() {
